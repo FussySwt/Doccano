@@ -1,0 +1,15 @@
+constructor(
+    private readonly configRepository: ConfigRepository
+  ) {}
+
+  public list(id: string): Promise<ConfigItemList> {
+    return this.configRepository.list(id)
+  }
+
+  public save(projectId: string, item: ConfigItem): Promise<ConfigItem> {
+    return this.configRepository.create(projectId, item)
+  }
+
+  public delete(projectId: string, itemId: number) {
+    return this.configRepository.delete(projectId, itemId)
+  }

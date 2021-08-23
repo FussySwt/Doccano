@@ -1,0 +1,22 @@
+export default {
+  continue: 'Continuer',
+  yes: 'Oui',
+  all: 'Tout',
+  save: 'Enregistrer',
+  edit: 'Éditer',
+  create: 'Créer',
+  cancel: 'Annuler',
+  close: 'Fermer',
+  upload: 'Télécharger',
+  add: 'Ajouter',
+  return: 'Retour au niveau supérieur',
+  delete: 'Supprimer',
+  deleteAll: 'Supprimer tout',
+  search: 'Recherchez',
+  name: 'Nom',
+  import: 'Importer',
+  export: 'Exporter',
+  description: 'Description',
+  type: 'Type',
+  loading: 'Chargement... veuillez patienter'
+}
